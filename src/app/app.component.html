@@ -1,17 +1,18 @@
 <section>
   <mat-toolbar color=" primary" style="align-items: center;">
-    <span class="logo">KLH Angular Test</span>
+    <span class="logo">
+      <a routerLink="/" style="text-decoration: none; color: white;">
+        KLH Angular Test
+        <small style="display: block; font-size: small;">Anas Idrissi</small>
+      </a>
+    </span>
     <span class="spacer"></span>
-    <mat-form-field class="search-bar" colo appearance="outline" style="margin-top: 20px;" >
-      <!-- <mat-label>Search</mat-label> -->
-      <input matInput placeholder="Search..." />
-    </mat-form-field>
     <span class="spacer"></span>
 
     <!-- Fix routerLink -->
     <div class="example-button-container">
         <a mat-fab extended raised-button color="primary" routerLink="product-list">
-          LIST PRODUCTS
+          List des Produits
         </a>
       </div>
   </mat-toolbar>
